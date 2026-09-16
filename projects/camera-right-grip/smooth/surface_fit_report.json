@@ -1,0 +1,20 @@
+{
+  "source": "/mnt/data/camera-grip-voronoi-adjustable-patch/camera-grip-voronoi-adjustable/assets/Camera_Right_Grip_MASTER_98mm.stl",
+  "step": "/mnt/data/camera-grip-voronoi-adjustable-patch/camera-grip-voronoi-adjustable/assets/smooth/Camera_Right_Grip_SURFACE_FIT.step",
+  "brep": "/mnt/data/camera-grip-voronoi-adjustable-patch/camera-grip-voronoi-adjustable/assets/smooth/Camera_Right_Grip_SURFACE_FIT.brep",
+  "preview_stl": "/mnt/data/camera-grip-voronoi-adjustable-patch/camera-grip-voronoi-adjustable/assets/smooth/Camera_Right_Grip_SURFACE_FIT_PREVIEW.stl",
+  "surface_faces": 32,
+  "angular_patches": 8,
+  "z_band_count": 4,
+  "z_bands_mm": [
+    0.8,
+    32.0,
+    64.0,
+    81.0,
+    97.2
+  ],
+  "fit_tolerance_mm": 0.35,
+  "degree_min": 3,
+  "degree_max": 5,
+  "note": "Smooth fitted reference geometry. This does not reconstruct the original feature history and is not used as the print master."
+}
