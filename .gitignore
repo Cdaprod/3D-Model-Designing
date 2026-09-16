@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# FreeCAD backups / recovery
+*.FCBak
+*.fcstd1
+*.autosave
+
+# Blender backups
+*.blend1
+*.blend2
+
+# Temp/cache
+*.tmp
+*.bak
+*.cache
+__pycache__/
+*.pyc
+
+# Archives / bulk downloads
+downloads/
+*.zip
+*.7z
+*.rar
+
+# Slicer / machine-generated junk
+*.gcode
+*.bgcode
+
+# Optional generated preview/render cache
+previews/cache/
+renders/cache/
+!/downloads/x1002-V1.0-NVMe/*
+
+!/downloads/VMount/*
+
+!/downloads/Lolin-S2-Mini/*
+
+!/downloads/DSO138-Enclosure/*
+
+!/downloads/DSO138-Enclosure-9v-Battery/*
+

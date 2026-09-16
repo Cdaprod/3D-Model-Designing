@@ -1,0 +1,38 @@
+Camera Right Grip manifold reconstruction
+
+Method:
+- dominant scan component only
+- surface sampling
+- 3D Delaunay tetrahedralization
+- alpha-complex / concave-hull solid reconstruction
+- voxel rasterization of selected tetrahedral volume
+- marching-cubes surface extraction
+- mild Taubin smoothing
+
+Parameters:
+alpha radius = 0.12
+voxel pitch = 0.004
+
+SOURCE dominant component:
+vertices = 19310
+faces = 37848
+watertight = False
+extents = [0.27649128437042236, 0.4684527516365051, 0.5827800035476685]
+
+RAW MANIFOLD:
+vertices = 45574
+faces = 91144
+watertight = True
+winding consistent = True
+extents = [0.276, 0.468, 0.584]
+
+SMOOTH MANIFOLD:
+vertices = 45574
+faces = 91144
+watertight = True
+winding consistent = True
+extents = [0.27609696015720353, 0.46812377284505746, 0.5829311334056926]
+
+Important:
+This is a reconstructed concave solid envelope, not a dimensionally calibrated CAD B-rep.
+Use it as the sculpt/Boolean starting mesh, then establish scale and the rig attachment datum.
