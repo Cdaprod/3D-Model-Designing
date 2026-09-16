@@ -30,13 +30,5 @@ downloads/
 # Optional generated preview/render cache
 previews/cache/
 renders/cache/
-!/downloads/x1002-V1.0-NVMe/*
-
-!/downloads/VMount/*
-
-!/downloads/Lolin-S2-Mini/*
-
-!/downloads/DSO138-Enclosure/*
-
-!/downloads/DSO138-Enclosure-9v-Battery/*
+!/downloads/*
 
