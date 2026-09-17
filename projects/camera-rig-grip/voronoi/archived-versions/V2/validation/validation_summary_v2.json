@@ -1,0 +1,170 @@
+{
+  "Camera_Right_Grip_MASTER_98mm.stl": {
+    "faces": 91144,
+    "vertices": 45574,
+    "watertight": true,
+    "body_count": 1,
+    "volume_mm3": 109591.494,
+    "extents_mm": [
+      46.4163,
+      78.6991,
+      98.0
+    ],
+    "bounds_mm": [
+      [
+        -23.2081,
+        -39.3495,
+        0.0
+      ],
+      [
+        23.2081,
+        39.3495,
+        98.0
+      ]
+    ]
+  },
+  "Electronics_Cavity_V2.stl": {
+    "faces": 1208,
+    "vertices": 606,
+    "watertight": true,
+    "body_count": 1,
+    "volume_mm3": 16042.359,
+    "extents_mm": [
+      19.7196,
+      39.3742,
+      82.9372
+    ],
+    "bounds_mm": [
+      [
+        -11.8598,
+        -18.9371,
+        -2.9686
+      ],
+      [
+        7.8598,
+        20.4371,
+        79.9686
+      ]
+    ]
+  },
+  "Electronics_Keepout_V2.stl": {
+    "faces": 1210,
+    "vertices": 607,
+    "watertight": true,
+    "body_count": 1,
+    "volume_mm3": 32965.793,
+    "extents_mm": [
+      26.0792,
+      45.734,
+      87.3094
+    ],
+    "bounds_mm": [
+      [
+        -15.0396,
+        -22.117,
+        -5.1547
+      ],
+      [
+        11.0396,
+        23.617,
+        82.1547
+      ]
+    ]
+  },
+  "Voronoi_Cutters_V2.stl": {
+    "faces": 258,
+    "vertices": 141,
+    "watertight": true,
+    "body_count": 6,
+    "volume_mm3": 40155.76,
+    "extents_mm": [
+      60.0,
+      61.2847,
+      64.083
+    ],
+    "bounds_mm": [
+      [
+        -30.0,
+        10.8026,
+        -36.5456
+      ],
+      [
+        30.0,
+        72.0873,
+        27.5374
+      ]
+    ]
+  },
+  "Camera_Right_Grip_HOLLOW_V2_98mm.stl": {
+    "faces": 90610,
+    "vertices": 45307,
+    "watertight": true,
+    "body_count": 1,
+    "volume_mm3": 94693.19,
+    "extents_mm": [
+      46.4162,
+      78.699,
+      98.0
+    ],
+    "bounds_mm": [
+      [
+        -23.2081,
+        -39.3495,
+        0.0
+      ],
+      [
+        23.2081,
+        39.3495,
+        98.0
+      ]
+    ]
+  },
+  "Camera_Right_Grip_HOLLOW_V2_VOXEL_98mm.stl": {
+    "faces": 95246,
+    "vertices": 47623,
+    "watertight": true,
+    "body_count": 1,
+    "volume_mm3": 96754.384,
+    "extents_mm": [
+      46.4163,
+      78.6991,
+      98.0
+    ],
+    "bounds_mm": [
+      [
+        -23.2081,
+        -39.3495,
+        0.0
+      ],
+      [
+        23.2081,
+        39.3495,
+        98.0
+      ]
+    ]
+  },
+  "Camera_Right_Grip_VORONOI_V2_98mm.stl": {
+    "faces": 95138,
+    "vertices": 47569,
+    "watertight": true,
+    "body_count": 1,
+    "volume_mm3": 96116.131,
+    "extents_mm": [
+      46.4163,
+      78.6991,
+      98.0
+    ],
+    "bounds_mm": [
+      [
+        -23.2081,
+        -39.3495,
+        0.0
+      ],
+      [
+        23.2081,
+        39.3495,
+        98.0
+      ]
+    ]
+  }
+}

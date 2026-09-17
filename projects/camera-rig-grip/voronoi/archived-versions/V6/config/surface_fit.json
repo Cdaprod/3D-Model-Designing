@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "angular_patches": 8,
+  "z_bands_mm": [
+    0.8,
+    32.0,
+    64.0,
+    81.0,
+    97.2
+  ],
+  "z_samples_per_band": 9,
+  "angular_samples_per_patch": 7,
+  "degree_min": 3,
+  "degree_max": 5,
+  "fit_tolerance_mm": 0.35,
+  "preserve_source_master": true,
+  "purpose": "CAD reference / selectable smooth faces and edges; not print master"
+}

@@ -1,0 +1,57 @@
+{
+  "master": "Camera_Right_Grip_MASTER_98mm.stl",
+  "physical_units": "mm",
+  "master_extents_mm": [
+    46.416297912597656,
+    78.69905853271484,
+    98.0
+  ],
+  "voronoi_seed": 17,
+  "voronoi_seed_count": 18,
+  "generated_cut_cells": 13,
+  "nominal_rib_width_mm": 5.2,
+  "electronics_cavity_radii_mm": [
+    6.4,
+    10.0,
+    5.0
+  ],
+  "electronics_keepout_radii_mm": [
+    9.6,
+    13.2,
+    7.2
+  ],
+  "top_protected_from_z_mm": 79.0,
+  "bottom_protected_to_z_mm": 10.0,
+  "cavity_centerline_xyz_mm": [
+    [
+      -5.5,
+      10.0,
+      2.0
+    ],
+    [
+      -5.0,
+      10.5,
+      18.0
+    ],
+    [
+      -3.5,
+      7.0,
+      36.0
+    ],
+    [
+      -1.0,
+      1.5,
+      52.0
+    ],
+    [
+      1.5,
+      -7.0,
+      68.0
+    ],
+    [
+      1.0,
+      -9.0,
+      75.0
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "master_extents_mm": [
+    46.416297912597656,
+    78.69905853271484,
+    98.0
+  ],
+  "v3_extents_mm": [
+    46.16528925619835,
+    77.75206611570249,
+    98.0
+  ],
+  "v3_bounds_mm": [
+    [
+      -23.082644628099175,
+      -38.876033057851245,
+      0.0
+    ],
+    [
+      23.082644628099175,
+      38.876033057851245,
+      98.0
+    ]
+  ],
+  "v3_faces": 109652,
+  "v3_vertices": 54798,
+  "v3_watertight": true,
+  "v3_connected_components": 2,
+  "voxel_pitch_mm": 0.8,
+  "approx_material_removed_fraction_vs_master_voxels": 0.5433266627633637,
+  "seed_count": 15,
+  "rib_nominal_width_mm": 5.2
+}

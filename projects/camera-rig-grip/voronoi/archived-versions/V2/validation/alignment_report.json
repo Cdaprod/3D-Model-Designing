@@ -1,0 +1,53 @@
+{
+  "coordinate_system": {
+    "units": "mm",
+    "grip_xy_centered": true,
+    "grip_z_min": 0.0,
+    "grip_z_max": 98.0
+  },
+  "master_bounds": [
+    [
+      -23.208148956298828,
+      -39.34952926635742,
+      0.0
+    ],
+    [
+      23.208148956298828,
+      39.34952926635742,
+      98.0
+    ]
+  ],
+  "hollow_bounds": [
+    [
+      -23.2081,
+      -39.3495,
+      0.0
+    ],
+    [
+      23.2081,
+      39.3495,
+      98.0
+    ]
+  ],
+  "aligned_cutter_bounds": [
+    [
+      -30.0,
+      -36.5456,
+      10.8026
+    ],
+    [
+      30.0,
+      27.5374,
+      72.0873
+    ]
+  ],
+  "aligned_cutter_extents": [
+    60.0,
+    64.083,
+    61.2847
+  ],
+  "aligned_cutter_components": 6,
+  "aligned_cutter_watertight": true,
+  "aligned_cutter_volume_mm3": 40155.760354213795,
+  "correction": "Swap cutter Y and Z axes; invert winding if volume becomes negative."
+}

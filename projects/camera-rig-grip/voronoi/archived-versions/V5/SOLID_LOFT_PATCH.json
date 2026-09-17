@@ -1,0 +1,53 @@
+{
+  "patch": "solid-loft-reconstruction",
+  "delete_repo_first": false,
+  "merge_extract": true,
+  "supersedes": "32 independent B-spline surfaces",
+  "validation": {
+    "mode": "closed_section_periodic_bspline_solid_loft",
+    "valid_brep": true,
+    "solid_count": 1,
+    "faces": 4,
+    "edges": 12,
+    "vertices": 24,
+    "source_volume_mm3": 109591.49417269618,
+    "reconstructed_volume_mm3": 109049.29870646821,
+    "volume_difference_percent": -0.49474228846042917,
+    "source_extents_mm": [
+      46.416297912597656,
+      78.69905853271484,
+      98.0
+    ],
+    "z_sections_mm": [
+      1.0,
+      4.0,
+      7.0,
+      10.0,
+      14.0,
+      18.0,
+      22.0,
+      26.0,
+      30.0,
+      34.0,
+      38.0,
+      42.0,
+      46.0,
+      50.0,
+      54.0,
+      58.0,
+      62.0,
+      66.0,
+      70.0,
+      74.0,
+      78.0,
+      82.0,
+      86.0,
+      90.0,
+      93.5,
+      97.0
+    ],
+    "profile_points": 72,
+    "expected_onshape": "Parts (1), not Surfaces (32)",
+    "note": "STEP/BREP is a reverse-engineered smooth solid reference. Canonical STL remains source of truth for Voronoi/voxel generation."
+  }
+}

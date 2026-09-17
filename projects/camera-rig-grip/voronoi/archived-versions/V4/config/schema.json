@@ -1,0 +1,43 @@
+{
+  "project": "camera-grip-voronoi-adjustable",
+  "adjustable": {
+    "seed_count": {
+      "type": "integer",
+      "min": 7,
+      "max": 20
+    },
+    "rib_width_mm": {
+      "type": "number",
+      "min": 3.8,
+      "max": 8.0
+    },
+    "surface_structural_depth_mm": {
+      "type": "number",
+      "min": 4.0,
+      "max": 10.0
+    },
+    "heel_solid_height_mm": {
+      "type": "number",
+      "min": 6.0,
+      "max": 18.0
+    },
+    "top_solid_start_z_mm": {
+      "type": "number",
+      "min": 72.0,
+      "max": 90.0
+    },
+    "voxel_pitch_mm": {
+      "type": "number",
+      "min": 0.5,
+      "max": 1.5
+    },
+    "electronics_liner_enabled_in_print": {
+      "type": "boolean"
+    },
+    "electronics_liner_thickness_mm": {
+      "type": "number",
+      "min": 1.5,
+      "max": 5.0
+    }
+  }
+}

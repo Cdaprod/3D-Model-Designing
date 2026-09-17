@@ -1,0 +1,106 @@
+{
+  "project": "camera-grip-voronoi-adjustable",
+  "status": "canonical adjustable consolidation",
+  "lessons_carried_forward": [
+    "Do not use planar extruded Voronoi cutters.",
+    "Generate a surface-aware cellular field.",
+    "Preserve structural top/heel/spine regions.",
+    "Keep electronics liner optional and separate by default.",
+    "Validate topology before calling an output final.",
+    "Provide STEP faceted topology when CAD edge/vertex selection is required."
+  ],
+  "defaults": {
+    "target_height_mm": 98.0,
+    "voxel_pitch_mm": 0.8,
+    "step_proxy_pitch_mm": 1.8,
+    "seed_count": 12,
+    "rng_seed": 37,
+    "surface_structural_depth_mm": 6.0,
+    "rib_width_mm": 5.4,
+    "heel_solid_height_mm": 10.0,
+    "top_solid_start_z_mm": 81.0,
+    "rear_spine_half_width_mm": 4.2,
+    "rear_spine_center_y_mm": -18.0,
+    "rear_spine_z_slope": 0.1,
+    "upper_transition_start_z_mm": 70.0,
+    "upper_transition_depth_mm": 4.0,
+    "electronics_liner_enabled_in_print": false,
+    "electronics_liner_export_separately": true,
+    "electronics_cavity_center_mm": [
+      0.0,
+      -3.0,
+      43.0
+    ],
+    "electronics_cavity_radii_mm": [
+      7.0,
+      11.0,
+      27.0
+    ],
+    "electronics_liner_thickness_mm": 2.8,
+    "morphology_close_iterations": 1,
+    "preserve_largest_print_component": true
+  },
+  "validation": {
+    "master": {
+      "source": "/mnt/data/camera-grip-voronoi-v2/Camera_Right_Grip_MASTER_98mm.stl",
+      "watertight": true,
+      "extents_mm": [
+        46.416297912597656,
+        78.69905853271484,
+        98.0
+      ]
+    },
+    "default_print": {
+      "watertight": true,
+      "connected_components": 1,
+      "extents_mm": [
+        46.16528925619835,
+        78.5619834710744,
+        98.0
+      ],
+      "faces": 89034,
+      "vertices": 44489,
+      "approx_removed_fraction_vs_master_voxels": 0.5962091354766544
+    },
+    "cad_selectable": {
+      "assembly_step": "assets/step/Camera_Right_Grip_ADJUSTABLE_MULTIBODY_SELECTABLE.step",
+      "representation": "faceted STEP/BREP surface topology",
+      "selectable": [
+        "faces",
+        "triangle edges",
+        "vertices"
+      ],
+      "separate_bodies": true,
+      "body_manifest": {
+        "Cellular_Ribs": {
+          "proxy_faces": 16236,
+          "file": "assets/step/Cellular_Ribs_SELECTABLE.step"
+        },
+        "Heel_Protected": {
+          "proxy_faces": 1692,
+          "file": "assets/step/Heel_Protected_SELECTABLE.step"
+        },
+        "Top_Protected": {
+          "proxy_faces": 4596,
+          "file": "assets/step/Top_Protected_SELECTABLE.step"
+        },
+        "Rear_Spine": {
+          "proxy_faces": 5724,
+          "file": "assets/step/Rear_Spine_SELECTABLE.step"
+        },
+        "Upper_Transition": {
+          "proxy_faces": 4660,
+          "file": "assets/step/Upper_Transition_SELECTABLE.step"
+        },
+        "Electronics_Liner_OPTIONAL": {
+          "proxy_faces": 5612,
+          "file": "assets/step/Electronics_Liner_OPTIONAL_SELECTABLE.step"
+        },
+        "Electronics_Cavity_REFERENCE": {
+          "proxy_faces": 3888,
+          "file": "assets/step/Electronics_Cavity_REFERENCE_SELECTABLE.step"
+        }
+      }
+    }
+  }
+}

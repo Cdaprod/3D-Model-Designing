@@ -1,0 +1,17 @@
+{
+  "patch": "surface-fit",
+  "target_repo": "camera-grip-voronoi-adjustable",
+  "delete_repo_first": false,
+  "merge_extract": true,
+  "new_files": [
+    "src/surface_fit.py",
+    "src/generate_surface_fit.py",
+    "config/surface_fit.json",
+    "requirements-surface-fit.txt",
+    "SURFACE_FIT.md",
+    "assets/smooth/Camera_Right_Grip_SURFACE_FIT.step",
+    "assets/smooth/Camera_Right_Grip_SURFACE_FIT.brep",
+    "assets/smooth/Camera_Right_Grip_SURFACE_FIT_PREVIEW.stl",
+    "assets/smooth/surface_fit_report.json"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "target_height_mm": 98.0,
+  "voxel_pitch_mm": 0.8,
+  "step_proxy_pitch_mm": 1.8,
+  "seed_count": 10,
+  "rng_seed": 37,
+  "surface_structural_depth_mm": 5.2,
+  "rib_width_mm": 4.6,
+  "heel_solid_height_mm": 8.0,
+  "top_solid_start_z_mm": 83.0,
+  "rear_spine_half_width_mm": 4.2,
+  "rear_spine_center_y_mm": -18.0,
+  "rear_spine_z_slope": 0.1,
+  "upper_transition_start_z_mm": 70.0,
+  "upper_transition_depth_mm": 4.0,
+  "electronics_liner_enabled_in_print": false,
+  "electronics_liner_export_separately": true,
+  "electronics_cavity_center_mm": [
+    0.0,
+    -3.0,
+    43.0
+  ],
+  "electronics_cavity_radii_mm": [
+    7.0,
+    11.0,
+    27.0
+  ],
+  "electronics_liner_thickness_mm": 2.8,
+  "morphology_close_iterations": 1,
+  "preserve_largest_print_component": true
+}

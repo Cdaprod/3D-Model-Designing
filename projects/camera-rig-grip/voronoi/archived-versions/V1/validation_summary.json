@@ -1,0 +1,128 @@
+{
+  "Camera_Right_Grip_MASTER_98mm.stl": {
+    "faces": 91144,
+    "watertight": true,
+    "extents_mm": [
+      46.4163,
+      78.6991,
+      98.0
+    ],
+    "bounds_mm": [
+      [
+        -23.2081,
+        -39.3495,
+        0.0
+      ],
+      [
+        23.2081,
+        39.3495,
+        98.0
+      ]
+    ]
+  },
+  "Camera_Right_Grip_HOLLOW_98mm.stl": {
+    "faces": 91234,
+    "watertight": true,
+    "extents_mm": [
+      46.4162,
+      78.699,
+      98.0
+    ],
+    "bounds_mm": [
+      [
+        -23.2081,
+        -39.3495,
+        0.0
+      ],
+      [
+        23.2081,
+        39.3495,
+        98.0
+      ]
+    ]
+  },
+  "Camera_Right_Grip_VORONOI_PROTOTYPE_98mm.stl": {
+    "faces": 73758,
+    "watertight": true,
+    "extents_mm": [
+      45.761,
+      78.699,
+      98.0
+    ],
+    "bounds_mm": [
+      [
+        -23.2081,
+        -39.3495,
+        0.0
+      ],
+      [
+        22.5529,
+        39.3495,
+        98.0
+      ]
+    ]
+  },
+  "Electronics_Cavity_Reference.stl": {
+    "faces": 2232,
+    "watertight": true,
+    "extents_mm": [
+      19.7606,
+      39.4384,
+      82.9692
+    ],
+    "bounds_mm": [
+      [
+        -11.8803,
+        -18.9692,
+        -2.9846
+      ],
+      [
+        7.8803,
+        20.4692,
+        79.9846
+      ]
+    ]
+  },
+  "Electronics_Keepout_Reference.stl": {
+    "faces": 2242,
+    "watertight": true,
+    "extents_mm": [
+      26.1408,
+      45.8186,
+      87.3556
+    ],
+    "bounds_mm": [
+      [
+        -15.0704,
+        -22.1593,
+        -5.1778
+      ],
+      [
+        11.0704,
+        23.6593,
+        82.1778
+      ]
+    ]
+  },
+  "Voronoi_Cutters_Reference.stl": {
+    "faces": 41004,
+    "watertight": true,
+    "extents_mm": [
+      43.724,
+      64.8,
+      62.8
+    ],
+    "bounds_mm": [
+      [
+        -20.5159,
+        -32.4,
+        13.6
+      ],
+      [
+        23.2081,
+        32.4,
+        76.4
+      ]
+    ]
+  }
+}
